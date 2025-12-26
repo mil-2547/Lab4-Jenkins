@@ -14,7 +14,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = 'artiprice/lab4-jenkins'
-        DOCKER_CREDS_ID = 'dockerhub-creds'
+        DOCKER_CREDS_ID = 'docker-creds'
     }
     
     options {
